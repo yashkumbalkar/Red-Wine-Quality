@@ -1,2 +1,4 @@
-from src.Red_Wine_Quality.config.configuration import main
-print(main())
+from src.Red_Wine_Quality import logger
+
+
+logger.info('This is our custom log!')
