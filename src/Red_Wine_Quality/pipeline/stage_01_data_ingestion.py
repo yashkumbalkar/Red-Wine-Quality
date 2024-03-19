@@ -5,12 +5,6 @@ from Red_Wine_Quality import logger
 
 STAGE_NAME = "Data Ingestion stage"
 
-from Red_Wine_Quality.config.configuration import ConfigurationManager
-from Red_Wine_Quality.components.data_ingestion import DataIngestion
-from Red_Wine_Quality import logger
-
-
-STAGE_NAME = "Data Ingestion stage"
 
 
 class DataIngestionTrainingPipeline:
